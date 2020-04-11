@@ -16,6 +16,5 @@ class ServiceImpl(val properties: Properties): Service {
 
 @Component
 @ConfigurationProperties(prefix="redinterface")
-class Properties {
-    lateinit var name: String
-}
+data class Properties(
+    val name: String)
