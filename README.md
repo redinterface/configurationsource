@@ -1,4 +1,5 @@
-#Spring Configuration 
+# Spring Configuration 
+
 This is a simple application to show Spring configuration 
 
 
